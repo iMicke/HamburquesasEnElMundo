@@ -14,6 +14,7 @@
 		0031D59F1D16392000A5C3E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0031D59D1D16392000A5C3E0 /* LaunchScreen.storyboard */; };
 		0031D5AA1D16392000A5C3E0 /* HamburquesasEnElMundoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0031D5A91D16392000A5C3E0 /* HamburquesasEnElMundoTests.swift */; };
 		0031D5B51D16392000A5C3E0 /* HamburquesasEnElMundoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0031D5B41D16392000A5C3E0 /* HamburquesasEnElMundoUITests.swift */; };
+		0031D5C31D1639D700A5C3E0 /* Datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0031D5C21D1639D700A5C3E0 /* Datos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		0031D5B01D16392000A5C3E0 /* HamburquesasEnElMundoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HamburquesasEnElMundoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0031D5B41D16392000A5C3E0 /* HamburquesasEnElMundoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamburquesasEnElMundoUITests.swift; sourceTree = "<group>"; };
 		0031D5B61D16392000A5C3E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0031D5C21D1639D700A5C3E0 /* Datos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				0031D59B1D16392000A5C3E0 /* Assets.xcassets */,
 				0031D59D1D16392000A5C3E0 /* LaunchScreen.storyboard */,
 				0031D5A01D16392000A5C3E0 /* Info.plist */,
+				0031D5C21D1639D700A5C3E0 /* Datos.swift */,
 			);
 			path = HamburquesasEnElMundo;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				0031D5971D16392000A5C3E0 /* ViewController.swift in Sources */,
 				0031D5951D16392000A5C3E0 /* AppDelegate.swift in Sources */,
+				0031D5C31D1639D700A5C3E0 /* Datos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +412,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mx.imicke.HamburquesasEnElMundo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -419,6 +424,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mx.imicke.HamburquesasEnElMundo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
