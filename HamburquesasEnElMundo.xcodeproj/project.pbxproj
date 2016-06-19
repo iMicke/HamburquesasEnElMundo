@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0031D5951D16392000A5C3E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0031D5941D16392000A5C3E0 /* AppDelegate.swift */; };
+		0031D5971D16392000A5C3E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0031D5961D16392000A5C3E0 /* ViewController.swift */; };
+		0031D59A1D16392000A5C3E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0031D5981D16392000A5C3E0 /* Main.storyboard */; };
+		0031D59C1D16392000A5C3E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0031D59B1D16392000A5C3E0 /* Assets.xcassets */; };
+		0031D59F1D16392000A5C3E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0031D59D1D16392000A5C3E0 /* LaunchScreen.storyboard */; };
+		0031D5AA1D16392000A5C3E0 /* HamburquesasEnElMundoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0031D5A91D16392000A5C3E0 /* HamburquesasEnElMundoTests.swift */; };
+		0031D5B51D16392000A5C3E0 /* HamburquesasEnElMundoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0031D5B41D16392000A5C3E0 /* HamburquesasEnElMundoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0031D5A61D16392000A5C3E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0031D5891D16392000A5C3E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0031D5901D16392000A5C3E0;
+			remoteInfo = HamburquesasEnElMundo;
+		};
+		0031D5B11D16392000A5C3E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0031D5891D16392000A5C3E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0031D5901D16392000A5C3E0;
+			remoteInfo = HamburquesasEnElMundo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0031D5911D16392000A5C3E0 /* HamburquesasEnElMundo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HamburquesasEnElMundo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0031D5941D16392000A5C3E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0031D5961D16392000A5C3E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0031D5991D16392000A5C3E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0031D59B1D16392000A5C3E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0031D59E1D16392000A5C3E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0031D5A01D16392000A5C3E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0031D5A51D16392000A5C3E0 /* HamburquesasEnElMundoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HamburquesasEnElMundoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0031D5A91D16392000A5C3E0 /* HamburquesasEnElMundoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamburquesasEnElMundoTests.swift; sourceTree = "<group>"; };
+		0031D5AB1D16392000A5C3E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0031D5B01D16392000A5C3E0 /* HamburquesasEnElMundoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HamburquesasEnElMundoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0031D5B41D16392000A5C3E0 /* HamburquesasEnElMundoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamburquesasEnElMundoUITests.swift; sourceTree = "<group>"; };
+		0031D5B61D16392000A5C3E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0031D58E1D16392000A5C3E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0031D5A21D16392000A5C3E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0031D5AD1D16392000A5C3E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0031D5881D16392000A5C3E0 = {
+			isa = PBXGroup;
+			children = (
+				0031D5931D16392000A5C3E0 /* HamburquesasEnElMundo */,
+				0031D5A81D16392000A5C3E0 /* HamburquesasEnElMundoTests */,
+				0031D5B31D16392000A5C3E0 /* HamburquesasEnElMundoUITests */,
+				0031D5921D16392000A5C3E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0031D5921D16392000A5C3E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0031D5911D16392000A5C3E0 /* HamburquesasEnElMundo.app */,
+				0031D5A51D16392000A5C3E0 /* HamburquesasEnElMundoTests.xctest */,
+				0031D5B01D16392000A5C3E0 /* HamburquesasEnElMundoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0031D5931D16392000A5C3E0 /* HamburquesasEnElMundo */ = {
+			isa = PBXGroup;
+			children = (
+				0031D5941D16392000A5C3E0 /* AppDelegate.swift */,
+				0031D5961D16392000A5C3E0 /* ViewController.swift */,
+				0031D5981D16392000A5C3E0 /* Main.storyboard */,
+				0031D59B1D16392000A5C3E0 /* Assets.xcassets */,
+				0031D59D1D16392000A5C3E0 /* LaunchScreen.storyboard */,
+				0031D5A01D16392000A5C3E0 /* Info.plist */,
+			);
+			path = HamburquesasEnElMundo;
+			sourceTree = "<group>";
+		};
+		0031D5A81D16392000A5C3E0 /* HamburquesasEnElMundoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0031D5A91D16392000A5C3E0 /* HamburquesasEnElMundoTests.swift */,
+				0031D5AB1D16392000A5C3E0 /* Info.plist */,
+			);
+			path = HamburquesasEnElMundoTests;
+			sourceTree = "<group>";
+		};
+		0031D5B31D16392000A5C3E0 /* HamburquesasEnElMundoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0031D5B41D16392000A5C3E0 /* HamburquesasEnElMundoUITests.swift */,
+				0031D5B61D16392000A5C3E0 /* Info.plist */,
+			);
+			path = HamburquesasEnElMundoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0031D5901D16392000A5C3E0 /* HamburquesasEnElMundo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0031D5B91D16392000A5C3E0 /* Build configuration list for PBXNativeTarget "HamburquesasEnElMundo" */;
+			buildPhases = (
+				0031D58D1D16392000A5C3E0 /* Sources */,
+				0031D58E1D16392000A5C3E0 /* Frameworks */,
+				0031D58F1D16392000A5C3E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HamburquesasEnElMundo;
+			productName = HamburquesasEnElMundo;
+			productReference = 0031D5911D16392000A5C3E0 /* HamburquesasEnElMundo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0031D5A41D16392000A5C3E0 /* HamburquesasEnElMundoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0031D5BC1D16392000A5C3E0 /* Build configuration list for PBXNativeTarget "HamburquesasEnElMundoTests" */;
+			buildPhases = (
+				0031D5A11D16392000A5C3E0 /* Sources */,
+				0031D5A21D16392000A5C3E0 /* Frameworks */,
+				0031D5A31D16392000A5C3E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0031D5A71D16392000A5C3E0 /* PBXTargetDependency */,
+			);
+			name = HamburquesasEnElMundoTests;
+			productName = HamburquesasEnElMundoTests;
+			productReference = 0031D5A51D16392000A5C3E0 /* HamburquesasEnElMundoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0031D5AF1D16392000A5C3E0 /* HamburquesasEnElMundoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0031D5BF1D16392000A5C3E0 /* Build configuration list for PBXNativeTarget "HamburquesasEnElMundoUITests" */;
+			buildPhases = (
+				0031D5AC1D16392000A5C3E0 /* Sources */,
+				0031D5AD1D16392000A5C3E0 /* Frameworks */,
+				0031D5AE1D16392000A5C3E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0031D5B21D16392000A5C3E0 /* PBXTargetDependency */,
+			);
+			name = HamburquesasEnElMundoUITests;
+			productName = HamburquesasEnElMundoUITests;
+			productReference = 0031D5B01D16392000A5C3E0 /* HamburquesasEnElMundoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0031D5891D16392000A5C3E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Miguel Angel Trejo Escamilla";
+				TargetAttributes = {
+					0031D5901D16392000A5C3E0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 56WGAYQ54G;
+					};
+					0031D5A41D16392000A5C3E0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 56WGAYQ54G;
+						TestTargetID = 0031D5901D16392000A5C3E0;
+					};
+					0031D5AF1D16392000A5C3E0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 56WGAYQ54G;
+						TestTargetID = 0031D5901D16392000A5C3E0;
+					};
+				};
+			};
+			buildConfigurationList = 0031D58C1D16392000A5C3E0 /* Build configuration list for PBXProject "HamburquesasEnElMundo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0031D5881D16392000A5C3E0;
+			productRefGroup = 0031D5921D16392000A5C3E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0031D5901D16392000A5C3E0 /* HamburquesasEnElMundo */,
+				0031D5A41D16392000A5C3E0 /* HamburquesasEnElMundoTests */,
+				0031D5AF1D16392000A5C3E0 /* HamburquesasEnElMundoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0031D58F1D16392000A5C3E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0031D59F1D16392000A5C3E0 /* LaunchScreen.storyboard in Resources */,
+				0031D59C1D16392000A5C3E0 /* Assets.xcassets in Resources */,
+				0031D59A1D16392000A5C3E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0031D5A31D16392000A5C3E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0031D5AE1D16392000A5C3E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0031D58D1D16392000A5C3E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0031D5971D16392000A5C3E0 /* ViewController.swift in Sources */,
+				0031D5951D16392000A5C3E0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0031D5A11D16392000A5C3E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0031D5AA1D16392000A5C3E0 /* HamburquesasEnElMundoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0031D5AC1D16392000A5C3E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0031D5B51D16392000A5C3E0 /* HamburquesasEnElMundoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0031D5A71D16392000A5C3E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0031D5901D16392000A5C3E0 /* HamburquesasEnElMundo */;
+			targetProxy = 0031D5A61D16392000A5C3E0 /* PBXContainerItemProxy */;
+		};
+		0031D5B21D16392000A5C3E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0031D5901D16392000A5C3E0 /* HamburquesasEnElMundo */;
+			targetProxy = 0031D5B11D16392000A5C3E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0031D5981D16392000A5C3E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0031D5991D16392000A5C3E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0031D59D1D16392000A5C3E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0031D59E1D16392000A5C3E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0031D5B71D16392000A5C3E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0031D5B81D16392000A5C3E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0031D5BA1D16392000A5C3E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HamburquesasEnElMundo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mx.imicke.HamburquesasEnElMundo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0031D5BB1D16392000A5C3E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HamburquesasEnElMundo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mx.imicke.HamburquesasEnElMundo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0031D5BD1D16392000A5C3E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HamburquesasEnElMundoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mx.imicke.HamburquesasEnElMundoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HamburquesasEnElMundo.app/HamburquesasEnElMundo";
+			};
+			name = Debug;
+		};
+		0031D5BE1D16392000A5C3E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HamburquesasEnElMundoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mx.imicke.HamburquesasEnElMundoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HamburquesasEnElMundo.app/HamburquesasEnElMundo";
+			};
+			name = Release;
+		};
+		0031D5C01D16392000A5C3E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HamburquesasEnElMundoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mx.imicke.HamburquesasEnElMundoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HamburquesasEnElMundo;
+			};
+			name = Debug;
+		};
+		0031D5C11D16392000A5C3E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HamburquesasEnElMundoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mx.imicke.HamburquesasEnElMundoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HamburquesasEnElMundo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0031D58C1D16392000A5C3E0 /* Build configuration list for PBXProject "HamburquesasEnElMundo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0031D5B71D16392000A5C3E0 /* Debug */,
+				0031D5B81D16392000A5C3E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0031D5B91D16392000A5C3E0 /* Build configuration list for PBXNativeTarget "HamburquesasEnElMundo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0031D5BA1D16392000A5C3E0 /* Debug */,
+				0031D5BB1D16392000A5C3E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0031D5BC1D16392000A5C3E0 /* Build configuration list for PBXNativeTarget "HamburquesasEnElMundoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0031D5BD1D16392000A5C3E0 /* Debug */,
+				0031D5BE1D16392000A5C3E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0031D5BF1D16392000A5C3E0 /* Build configuration list for PBXNativeTarget "HamburquesasEnElMundoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0031D5C01D16392000A5C3E0 /* Debug */,
+				0031D5C11D16392000A5C3E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0031D5891D16392000A5C3E0 /* Project object */;
+}
